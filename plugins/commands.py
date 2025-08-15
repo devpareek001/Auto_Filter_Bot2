@@ -103,10 +103,10 @@ async def start(client, message):
                     InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                     InlineKeyboardButton(' Movie Group 🛸', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📩', callback_data="about"),
                 ],[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📩', callback_data='about')
+                    InlineKeyboardButton('𝙼𝚘𝚟𝚒𝚎 𝚞𝚙𝚍𝚊𝚝𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 🫧', url=UPDATE_CHNL_LNK)
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -137,10 +137,10 @@ async def start(client, message):
                     InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                     InlineKeyboardButton(' Movie Group 🛸', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📩', callback_data="about"),
                 ],[
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📩', callback_data='about')
+                    InlineKeyboardButton('𝙼𝚘𝚟𝚒𝚎 𝚞𝚙𝚍𝚊𝚝𝚎 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 🫧', url=UPDATE_CHNL_LNK)
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
